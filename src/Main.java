@@ -21,8 +21,8 @@ public class Main {
         int anzahl_Monster = 5; // wie sill hier die Anzahl bestimmt werden?
 
         //End_Generierung();
-        //kampf();
-        BattleRoyal(anzahl_Monster);
+        kampf();
+        //BattleRoyal(anzahl_Monster);
     }//end of main
 
     public static void BattleRoyal(int anzahl_Monster){
@@ -110,7 +110,7 @@ public class Main {
         String[] eingabe = {"Zombie","Skelett","Skelett Ritter","Creeper","Geladener Creeper"};
         var monster =JOptionPane.showOptionDialog(null, "Gegen welches Monster soll der Spieler Kämpfen?",
         "Guten Morgen, Diese Nachricht wird Ihnen Präsentiert von deiner Mutter, ich hoffe sie haben einen angenehmen aufenthalt in unserem Eingabefeld.",
-                0,2,null,eingabe,eingabe[0]);
+                JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE,null,eingabe,eingabe[0]);
 
         String run=JOptionPane.showInputDialog("Wie oft soll Angegriffen werden?");
         int runden=Integer.parseInt(run);
