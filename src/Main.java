@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
 
         //Deklaration
-//test
+        //test
         //Spieler
         Schwert schwert=new Schwert("DieLangeSchlange", 0.1, "Schong");
         Wohnung Atomschutzbunker=new Wohnung(69,420, "Koppenhagen");
