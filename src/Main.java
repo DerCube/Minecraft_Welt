@@ -20,7 +20,7 @@ public class Main {
 
         int anzahl_Monster = 5; // wie sill hier die Anzahl bestimmt werden?
 
-        //End_Generierung();
+        End_Generierung();
         kampf();
         //BattleRoyal(anzahl_Monster);
     }//end of main
