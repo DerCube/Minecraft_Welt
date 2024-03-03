@@ -160,13 +160,13 @@ public class Main {
 
         //Ergebnisse ausgaben
         if (s_hp<0) {
-            System.out.print("Der Spieler wurde von " + eingabe[monster] + " getötet.");
+            System.out.print("Spieler  " + spieler.name + " wurde von " + eingabe[monster] + " getötet.");
         }
         if (m_hp<0) {
-            System.out.print("Der Spieler hat " + eingabe[monster] + " getötet.");
+            System.out.print("Spieler " + spieler.name + " hat " + eingabe[monster] + " getötet.");
         }
         if (m_hp>0 && s_hp>0) {
-            System.out.print("Beide Leben noch. der Spieler hat " + (s_hp - spieler.spieler_hp) + " an Leben verloren und das Monster hat noch "+ (m_hp) + " Leben.");
+            System.out.print("Beide Leben noch. " + spieler.name + " " + (s_hp - spieler.spieler_hp) + " an Leben verloren und das Monster hat noch "+ (m_hp) + " Leben.");
         }
     }//end of kampf
 }//end of all
